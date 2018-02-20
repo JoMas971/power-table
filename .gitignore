@@ -1,0 +1,8 @@
+node_modules
+build
+test
+.idea
+coverage
+coverage_jest_raw
+*.log
+*.iml

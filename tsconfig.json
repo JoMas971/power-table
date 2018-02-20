@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "listFiles": false,
+    "traceResolution": false,
+    "pretty": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "rootDir": "./",
+    "importHelpers": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "types": [
+      "node"
+    ],
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules/**"
+  ],
+  "files": [
+    "node_modules/@types/jest/index.d.ts"
+  ],
+  "compileOnSave": false
+}
